@@ -18,11 +18,25 @@
     <nav class="navbar container">
       <img src="./img/logo.svg" alt="" />
 
-      <img src="./img/hamburger-menu.svg" alt="burger menu" />
+      <img
+        class="burger-button"
+        id="navbar-button"
+        src="./img/hamburger-menu.svg"
+        alt="burger menu"
+      />
+
+      <nav id="menu" class="navbar-collapse collapse">
+        <ul class="navbar-links">
+          <li><a class="link" href="#">Features</a></li>
+          <li><a class="link" href="#">Pricing</a></li>
+        </ul>
+
+        <div class="btn">Start Scheduling</div>
+      </nav>
     </nav>
 
-    <header class="header">
-      <div class="container">
+    <header class="header container">
+      <div class="header-info">
         <h1 class="heading-blue">Post when your audience is most active.</h1>
 
         <p>
@@ -39,7 +53,7 @@
         <div class="header-feature">
           <img src="./img/shield.svg" alt="shield" />
 
-          <div>
+          <div class="header-feature-text">
             <p>TimeNow dows not sell your data.</p>
             <a class="btn-link btn-link-border" href="#">Learn more</a>
           </div>
@@ -52,99 +66,113 @@
     </header>
 
     <main class="main-content container">
-      <h2 class="heading-blue">
-        TimeNow is used by the most influential people.
-      </h2>
+      <div class="main-content-header">
+        <h2 class="heading-blue">
+          TimeNow is used by the most influential people.
+        </h2>
 
-      <div class="main-content-influencers">
-        <img class="influencer" src="./img/avatar-1.png" alt="avatar" />
-        <img class="influencer" src="./img/avatar-2.png" alt="avatar" />
-        <img class="influencer" src="./img/avatar-3.png" alt="avatar" />
-        <img class="influencer" src="./img/avatar-4.png" alt="avatar" />
-        <img class="influencer" src="./img/avatar-5.png" alt="avatar" />
-        <img class="influencer" src="./img/avatar-6.png" alt="avatar" />
-        <img class="influencer" src="./img/avatar-7.png" alt="avatar" />
-        <img class="influencer" src="./img/avatar-8.png" alt="avatar" />
+        <div class="main-content-influencers">
+          <img class="influencer" src="./img/avatar-1.png" alt="avatar" />
+          <img class="influencer" src="./img/avatar-2.png" alt="avatar" />
+          <img class="influencer" src="./img/avatar-3.png" alt="avatar" />
+          <img class="influencer" src="./img/avatar-4.png" alt="avatar" />
+          <img class="influencer" src="./img/avatar-5.png" alt="avatar" />
+          <img class="influencer" src="./img/avatar-6.png" alt="avatar" />
+          <img class="influencer" src="./img/avatar-7.png" alt="avatar" />
+          <img class="influencer" src="./img/avatar-8.png" alt="avatar" />
+        </div>
       </div>
 
-      <p>
-        The most influential people on Facebook, Twitter, and Instagram are
-        using TweetNow to schedule posts when their followers are most active.
-      </p>
+      <div>
+        <p>
+          The most influential people on Facebook, Twitter, and Instagram are
+          using TweetNow to schedule posts when their followers are most active.
+        </p>
 
-      <p class="mt-3">
-        They generally receive 23% more engagement than people who do not.
-      </p>
+        <p class="mt-3">
+          They generally receive 23% more engagement than people who do not.
+        </p>
+      </div>
     </main>
 
-    <div class="features container">
-      <section>
-        <h3>Unified Dashboard</h3>
+    <div class="features-container">
+      <div class="features container">
+        <section>
+          <h3>Unified Dashboard</h3>
 
-        <h2 class="heading-green">Customizable dashboard for all platforms.</h2>
+          <h2 class="heading-green">
+            Customizable dashboard for all platforms.
+          </h2>
 
-        <p>
-          Use Twitter and Instagram but not LinkedIn? You can customize your
-          dashboard to your liking. You can even schedule the same post to
-          individual platforms instead of all platforms.
-        </p>
+          <p>
+            Use Twitter and Instagram but not LinkedIn? You can customize your
+            dashboard to your liking. You can even schedule the same post to
+            individual platforms instead of all platforms.
+          </p>
 
-        <a class="btn mt-2" href="#">Start Scheduling</a>
-      </section>
+          <a class="btn mt-2" href="#">Start Scheduling</a>
+        </section>
 
-      <section>
-        <h3>Enhanced Analytics</h3>
+        <section>
+          <h3>Enhanced Analytics</h3>
 
-        <h2 class="heading-green">Real-time data that tells you everything.</h2>
+          <h2 class="heading-green">
+            Real-time data that tells you everything.
+          </h2>
 
-        <p>
-          Get detailed reports of what's working and what isn't. Engagement
-          rates, impressions, views, and much more data is available to you
-          through our in-depth dashboard tool.
-        </p>
+          <p>
+            Get detailed reports of what's working and what isn't. Engagement
+            rates, impressions, views, and much more data is available to you
+            through our in-depth dashboard tool.
+          </p>
 
-        <a class="btn-link mt-2" href="#">View Live Demo</a>
-      </section>
+          <a class="btn-link mt-2" href="#">View Live Demo</a>
+        </section>
+      </div>
     </div>
 
     <footer class="footer container">
       <img src="./img/logo.svg" alt="logo" />
 
-      <nav class="footer-nav mt-3">
-        <div>
-          <h4>Product</h4>
+      <div class="footer-nav-container">
+        <nav class="footer-nav mt-3">
+          <div>
+            <h4>Product</h4>
 
-          <ul>
-            <li><a href="#">Homepage</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Features</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>Help</h4>
+            <ul>
+              <li><a href="#">Homepage</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Features</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Help</h4>
 
-          <ul>
-            <li><a href="#">Live Chat</a></li>
-            <li><a href="#">Send Email</a></li>
-            <li><a href="#">FAQ</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>Company</h4>
+            <ul>
+              <li><a href="#">Live Chat</a></li>
+              <li><a href="#">Send Email</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Company</h4>
 
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Customers</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </div>
-      </nav>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Customers</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+        </nav>
 
-      <form class="mt-3" action="">
-        <h4>Try TweetNow</h4>
+        <form class="mt-3" action="">
+          <h4>Try TweetNow</h4>
 
-        <input type="text" placeholder="Email Address" />
-      </form>
+          <input type="text" placeholder="Email Address" />
+        </form>
+      </div>
     </footer>
+
+    <script src="./js/app.js"></script>
   </body>
 </html>
