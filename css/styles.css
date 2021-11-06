@@ -370,6 +370,72 @@ li {
   }
 }
 
+/********************/
+/*     Pricing     */
+/******************/
+
+.separator {
+  margin: 3rem 0;
+  color: rgb(206, 206, 206);
+  border: 1px solid rgb(206, 206, 206);
+}
+
+/* Header */
+.header-pricing {
+  text-align: center;
+}
+
+.header-pricing h1 {
+  font-size: 5rem;
+}
+
+.plan-bill {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Plans */
+.plan-pricing .container {
+  margin-top: 3.5rem;
+  margin-bottom: 4rem;
+  padding: 0 2.5rem;
+  display: grid;
+  row-gap: 3.5rem;
+}
+
+.plan {
+  border: 1.5px solid #a9a9a9;
+  border-radius: 0.5rem;
+  padding: 3.5rem 3rem;
+}
+
+.plan .btn {
+  width: 100%;
+}
+
+.plan-header h3 {
+  color: #000;
+  font-size: 3.5rem;
+}
+
+.plan-header span {
+  color: #a9a9a9;
+  font-size: 2rem;
+}
+
+.plan-features {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.plan-feature {
+  display: flex;
+  column-gap: 1.5rem;
+}
+
 /* Para medi queries */
 /* .navbar-collapse {
   display: flex;
